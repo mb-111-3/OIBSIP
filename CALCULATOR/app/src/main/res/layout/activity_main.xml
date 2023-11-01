@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textColor="#ED3030"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="50dp"
+    />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="24sp"
+        android:gravity="end"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:text="0"
+        tools:ignore="HardcodedText" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="150dp"
+        android:columnCount="4">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FB1515"
+            android:text="@string/_11"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FB1515"
+            android:text="@string/_22"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FB1515"
+            android:text="@string/_33"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="+"
+            android:backgroundTint="#C2B01D"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="0dp"
+            android:backgroundTint="#FB1515"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/_44"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="0dp"
+            android:backgroundTint="#FB1515"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/_55"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="6"
+            android:backgroundTint="#FB1515"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="-"
+            android:backgroundTint="#C2B01D"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FB1515"
+            android:text="@string/_77"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#FB1515"
+            android:text="8"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="9"
+            android:backgroundTint="#FB1515"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnMultiply"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#C2B01D"
+            android:text="@string/star" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:backgroundTint="#B8B8B6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="C"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="@string/_0_1"
+            android:backgroundTint="#FB1515"
+            tools:ignore="DuplicateSpeakableTextCheck,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/btnEquals"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="="
+            android:backgroundTint="#B8B8B6"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnDivide"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="/"
+            android:backgroundTint="#C2B01D"
+            tools:ignore="HardcodedText" />
+
+    </GridLayout>
+
+</LinearLayout>
